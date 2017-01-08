@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dp="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right|center_vertical"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    >
+    <TextView
+        android:id="@+id/answer_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/acr"
+        android:textSize="16sp"/>
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/quest_img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        dp:roundAsCircle="true"
+        dp:placeholderImage="@drawable/mtdp"/>
+</LinearLayout>
